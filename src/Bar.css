@@ -1,0 +1,14 @@
+.bar-container {
+    width: 300px;
+    height: 30px;
+    border: 2px solid #ccc;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .bar {
+    height: 100%;
+    /* background-color: linear-gradient(to right, #eceff1, #e74c3c); */
+    background-image: linear-gradient(70deg,  #ff00c8 , #7a00ff, #ff0000);
+    transition: width 0.5s ease-in-out;
+  }
