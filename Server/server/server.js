@@ -35,7 +35,7 @@ app.post("/api/predict", (req, res) => {
 function readCSVFile() {
   const data = [];
   let rowCount = 0;
-  fs.createReadStream('merged_players_df_reborn.csv') // Replace 'data.csv' with your CSV file's path
+  fs.createReadStream('merged_players_df_final.csv') // Replace 'data.csv' with your CSV file's path
     .pipe(csv())
     .on('data', (row) => {
         if(rowCount < 10){

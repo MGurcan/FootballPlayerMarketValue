@@ -1,5 +1,10 @@
+body{
+  margin:0;
+  padding:0;
+  background: linear-gradient(70deg, #002bff, #7a00ff, #ff00c8, #eabebe);
+}
 .container{
-  background: linear-gradient(70deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  
   font-family: Arial, sans-serif;
   margin: 20px;
   padding: 20px;
