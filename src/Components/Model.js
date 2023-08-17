@@ -345,7 +345,7 @@ const Model = () => {
     <div className='container'>
       <Navbar />
       <button onClick={handleChangeModel} className='attractive-button'>Change Model</button>
-      <div className='model-type-header'>{modelNo === 0 ? 'Vanilla Model (GradientBoostingRegressor)' : 'Complicated Model (RandomForestRegressor)'}</div>
+      <div className='model-type-header'>{modelNo === 0 ? 'Vanilla Model (GradientBoostingRegressor)' : 'Complicated Model (LGBMRegressor)'}</div>
       <div className='input-container'>
         {inputData.map((row, rowIndex) => (
           <div key={rowIndex} className='input-row'>

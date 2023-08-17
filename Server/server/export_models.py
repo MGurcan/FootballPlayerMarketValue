@@ -2,7 +2,7 @@ import pandas as pd
 
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import GradientBoostingRegressor, RandomForestRegressor
-
+import lightgbm as lgb
 import pickle
 
 path = 'merged_players_df_final.csv'
@@ -86,7 +86,8 @@ y = merged_players_df1_fillnan['market_value_in_eur']
 X = merged_players_df1_fillnan[model_1_new_columns]
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3,random_state=31)
 
-model_1 = RandomForestRegressor(random_state=0)
+#model_1 = RandomForestRegressor(random_state=0)
+model_1 = lgb.LGBMRegressor()
 
 # Export Model_1
 model_1.fit(X_train, y_train)
