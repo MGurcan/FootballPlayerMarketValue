@@ -1,6 +1,9 @@
 # Project Brief
 This project contains Football Player Market Value Prediction based on 2 different regression models. EDA and information related to model will be added to repository soon. 
 
+## 17.8 Project Final Presentation
+https://youtu.be/7erPG2gJZMU
+
 
 ## 24.07 Project Progress - EDA
 
